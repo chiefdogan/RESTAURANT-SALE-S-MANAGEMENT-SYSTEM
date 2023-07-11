@@ -1,0 +1,302 @@
+body{
+  width: 99.98%;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  background-color: #dddddd;
+  opacity: 0.9;
+}
+header{
+  overflow: hidden;
+}
+header .containe{
+ background-color: #878784;
+ border:0px solid red;
+ 
+}
+header .containe .hom-out,h1{
+  display: inline-block;
+}
+header .containe .hom-out{
+  float: right;
+  margin:10px 10px 5px 10px;
+  border:0px solid red;
+
+}
+.hom-out .hom-lk{
+ margin-bottom:10px;
+}
+#main-wrappa{
+  width: 100%;
+  margin: 0px;
+  border:0px solid red;
+}
+/*.menu-list{
+  width: 100%;
+  overflow: hidden;
+  border: 0px dotted red;
+}
+
+
+
+/*=============================
+         MENU BOx
+================================*/
+
+
+.lft-menu-list{
+  float:right;
+  width:45%;
+  height:551px;
+  border: 1px solid red;
+  margin:0px 7% 0px 0px;
+    background:#901;
+    overflow:auto;
+
+
+}
+.lft-menu-list div.h2{
+  width:auto;
+  padding:0.1%;
+  margin:0pc 0px 0px 0px;
+  /*position:fixed;*/
+  
+  border:0px dotted #901;
+  text-align:center;
+  letter-spacing:10px;
+  background:#901;
+  color:#ffffff;
+  font-weight:bold;
+
+}
+.wng-tl{
+    width:44%;  
+  background:#901;
+  border:0px dotted #901;
+  text-align:center;
+  letter-spacing:10px;
+  padding:-5px 0px -5px 0px;
+  color:#ffffff;
+}
+.mbg-tl{
+  width:55%;
+  margin-top:-52px;
+  padding:-5px 0px -5px 0px;
+  float:right;
+     background:#901;
+  border:0px dotted #901;
+  text-align:center;
+  letter-spacing:10px;
+  color:#ffffff;
+}
+.wng-list{
+  display: block;
+  position:relative;
+  float:left;
+  min-width:44%;
+  height:439.5px;
+  border: 0px dotted green;
+    background:#564;
+    overflow:auto;
+    margin:0px;
+    
+}
+.mbg-list{
+  display: block;
+  position:relative;
+  float:right;
+  min-width:55%;
+  height:439.5px;
+  border: 1px dotted blue;
+    background:#856;
+    background-position:fixed;
+    margin:0px;
+    overflow:auto;
+}
+
+/*=======================================================================
+                            USAJILI PEJI
+=========================================================================*/
+.menu-list,
+.container{
+  display: block;
+}
+.inp-lbl{
+  margin:0px 0px 20px 0px;
+  padding:0.3%;
+
+}
+.inp-lbl input{
+  width: 60%;
+  height: 5%;
+}
+.inp-lbl,.lbl-id{
+     display:block;
+     color:black;
+     font-weight: bold;
+     color: #ffffff;
+}
+.name1,.name2{
+  width:100%;
+}
+.fr_g{
+  width:40%;
+  border: 0px solid red;
+}
+.fr_g input, .sd_g input{
+  width:100%;
+}
+.sd_g{
+ width:40%;
+  border: 0px solid red;
+}
+.fr_g,.sd_g{
+  display: inline-block;
+  margin-bottom:10px;
+}
+.pwd-ipt{
+    width:80%;
+  border: 0px solid red;
+  margin: 0px auto 20px auto;
+}
+.pwd-ipt .inp-lbl{
+  width:45%;
+  display: inline-block;
+   border: 0px solid red;
+}
+.pwd-ipt input{
+  width:100%;
+}
+#contain{
+  width:100%;
+  border: 0px solid green;
+  margin: 0px auto 0px auto;
+  text-align: center;
+
+}
+form{
+    width:60%;
+  border: 0px solid green;
+  margin:20px auto 55px auto;
+  padding: 13px 0px;
+  background-color: #5d7d85;
+
+
+}
+input[type="text"],input[type="password"]{
+  padding:0.3%;
+ 
+}
+input[type="submit"]{
+  font-size: 20px;
+}
+.gnd-lbl,.gnd-id{
+  color:#ffffff;
+  display: inline-block;
+  margin:5px 0px 10px 15px;
+  
+}
+
+.wlcm-bar #alert-name,#alert{
+  display:inline-block;
+  border:0px dotted red;
+  padding: 5px 0px 5px 0px;
+ }
+  .wlcm-bar #alert-name{
+   float:left;
+ }
+ .wlcm-bar #alert{
+  clear: both;
+  min-width: 20%;
+  color:#c92525;
+  font-size: 18px;
+ }
+
+
+
+/*===================================================================
+                          LOGIN FORM
+=====================================================================*/
+.lg-frm{
+  display:none;
+  position:absolute;
+  width:25%;
+  margin:-505px 0px 0px 430px;
+  overflow: hidden;
+ 
+  /*background:#035157;*/
+  background:-webkit-linear-gradient(top,#134043,#035157,#024b51,#063e42,#073134,#062a2d);
+  outline:4px solid #36d4e0;
+  border:0px dotted green;
+  border:none;
+  z-index: 1001;
+  -moz-opacity: 0.8;
+  opacity:1;
+   
+}
+.pt-urn{
+  padding:2.5%;
+  width:80%;
+  display:block;
+  border-radius:10px;
+  margin:10px auto 30px auto;
+  text-align:center;
+  border:none;
+  color:#8d9394;
+  background:-webkit-linear-gradient(top,#4c4d45,#515454,#636666,#636666,#515454,#4c4d45);
+  cursor:pointer;
+  font:20px bold italic;
+}
+.pt-urn:hover{
+  border:2px solid #e8004c;
+}
+
+.lg-frm .cncel-btn button{
+  border:none;
+  cursor:pointer;
+  margin:2px 0px 0px 250px;
+  padding:2% 5% 2% 5%;
+  background:-webkit-linear-gradient(top,#4c4d45,#515454,#636666,#636666,#515454,#4c4d45);
+  color:#d41d0f;
+  font-weight: bold;
+}
+.lg-frm .cncel-btn button:hover{
+  border:2px solid #e8004c;
+ 
+}
+
+.shdow_windw{
+  display:none;
+ margin-top:-800px;
+  width:100%;
+  height:487px;
+  background:#4c4d45;
+  padding:0px 0px 25.5% 0px;
+  border:0px dotted green;
+  opacity:0.8;
+  -moz-opacity: 0.8;
+  z-index:1002;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

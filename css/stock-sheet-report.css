@@ -1,0 +1,196 @@
+body{
+	overflow-x:hidden; 
+    overflow-y: auto;
+	background-color:#eeeeee;
+}
+.main-container-rpt{
+	width:100%;
+	height: 100px;
+	margin:0px 0px 0px 0px;
+	overflow: hidden;
+
+
+
+}
+li{
+	text-decoration: none;
+}
+.main-container-rpt table{
+	width: 100%;
+	max-height:800px;
+	margin:-7px 0px 0px -7px;
+	position: absolute;
+	padding:0px;
+	overflow: hidden;
+	background-color: #ECEFF0;
+    font-family:arial;
+    font-size: 12px;
+}
+
+tr,th,td{
+	border:0px solid green;
+	padding:2.5px;
+	margin:-1px;
+}
+#tb-hd{
+	width: 100%;
+	border:0px solid red;
+	overflow: auto;
+	/*height: 100px;*/
+	background:#ffffff;
+}
+
+.hd_ttle_cover{
+	width:100%;
+	margin:0px;
+	border: 0px solid #b5b4a8;
+	/*height: 110px;*/
+	
+}
+
+ .close-button{
+	width:20px;
+	height: 15px;
+	border: 0px solid #d0262a;
+	margin:-126px 1px 0px 0px;
+	padding-top: 1px;
+	float: right;
+	cursor: pointer;
+	background-color:#d0262a;
+}
+.hd_ttle_cover .logo_ttle_hold{
+    width:100%;
+	margin:0px;
+	border: 0px solid orange;
+	height: 100px;
+}
+.logo_ttle_hold .logo_hold{
+    width:35%;
+    float:left;
+	margin:0px;
+	border: 0px solid green;
+	height: 100px;
+}
+.logo_ttle_hold .logo_hold img{
+	margin-left: 3px;
+	width:99.7%;
+	height: 100px;
+}
+.logo_ttle_hold .ttle_hold{
+    width:60%;
+    float: right;
+	margin:0px;
+	text-align: left;
+	border: 0px solid green;
+	height: 100px;
+}
+.ttle_hold p{
+	font-size: 28px;
+
+}
+.hd_ttle_cover .typ_mlo_th_hold{
+   width:100%;
+	margin:0px;
+	border: 0px solid green;
+	overflow: hidden;
+	height: 25px;
+}
+.typ_mlo_hold{
+	width:75%;
+	float: left;
+	margin:0px 0px 0px 0px;
+	border: 0px solid red;
+	height: 23px;
+}
+.typ_hold{
+   width:67%;
+	float: left;
+	margin:0px 0px 0px 0px;
+	border: 0px solid blue;
+	height: 23px;
+}
+.mlo_hold{
+	width:30%;
+    float: right;
+	margin:0px 0px 0px 0px;
+	border: 0px solid blue;
+	height: 23px;
+}
+.trh_hold{
+    width:20%;
+    float: right;
+	margin:0px 0px 0px 0px;
+	border: 0px solid red;
+	height: 23px;
+}
+.typ_hold p,
+.mlo_hold p,
+.trh_hold p{
+  margin:2px 0px 0px 0px;
+  font-size:18px;
+  font-family: italic;
+  font-style:solid;
+  text-align: left;
+  text-indent:20px;
+  text-decoration: underline;
+}
+.close-sgn1,
+.close-sgn2{
+	width:19px;
+	height: 0.2px;
+	border: 0px solid #ffffff;
+	background-color:#ffffff;
+	margin-bottom: 20px;
+}
+.close-sgn1{
+	transform:rotate(40deg);
+	margin:6px 0px 0px 0px;
+}
+.close-sgn2{
+	transform:rotate(-40deg);
+	margin:-2px 0px 0px 0px;
+}
+.row-thead{
+	background-color: #757964;
+	color: #ecece8;
+	font-size: 14px;
+
+}
+.table-tr:nth-child(even){
+	background-color: #dddddd;
+}
+
+.whole_row{
+	font-weight: bold;
+	font-size: 1.5vmax;
+}
+.total-column{
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	text-align: left;
+	font-weight: bold;
+	
+}
+.column_dec{
+	text-align: left;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+.mnt_alin{
+	text-align: right;
+	font-size: 1.7vmax;
+}
+.list_clmn_mnj_c{
+  width: 20px;
+  padding: 4px 0px 4px 0px;
+  font-size: 1.7vmax;
+   font-family: tahoma; 
+}
+.list_clmn_mnj_e{
+	font-size: 1.7vmax;
+	background-color: #ffffff;
+}
+
+/*-------------------------------------------------
+ PRINT BUTT
+---------------------------------------------------*/
